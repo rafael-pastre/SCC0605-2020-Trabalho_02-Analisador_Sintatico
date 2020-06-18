@@ -1,0 +1,46 @@
+program nome1;
+	{<dc_c>}
+	const constA = 5;
+	const constB = 6;
+	const constC = 7;
+	
+	{<dc_v>}
+	var a, b, c :integer;
+	var d 		:integer;
+	var w 		: real;
+	var x, y, z : real;
+	
+	{<dc_p>}
+	procedure procA;
+	begin
+		
+	end;	
+begin
+	{<comandos>}
+	read(a, b);
+	
+	c := a-b;
+	d := a+b;
+	x := w*x;
+	y := w/x;
+	
+	if a < b then
+		write(a);
+	
+	if a+c <> b+d then
+		write(a)			{na gramatica falta um ponto e virgula}
+	else b:=a+x;
+	
+	while (d>c) do
+	begin
+		write(w, x, y, z);
+		c:=c+1;
+	end;
+	
+	for d := a-b to c do
+		write(d);
+	
+	write(x);
+	read(y, c);
+	procA(a);
+end.
